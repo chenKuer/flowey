@@ -1,0 +1,33 @@
+test_debug (test_authentication.FlaskAuthenticationTestCase) ... ok
+test_log_in (test_authentication.FlaskAuthenticationTestCase) ... ok
+test_log_in_with_wrong_password (test_authentication.FlaskAuthenticationTestCase) ... ok
+test_log_out (test_authentication.FlaskAuthenticationTestCase) ... ok
+test_register (test_authentication.FlaskAuthenticationTestCase) ... ok
+test_register_with_email_already_in_db (test_authentication.FlaskAuthenticationTestCase) ... ok
+test_add_transaction (test_transaction.FlaskTransactionTestCase) ... ok
+test_add_transaction_before_login (test_transaction.FlaskTransactionTestCase) ... ok
+test_debug (test_transaction.FlaskTransactionTestCase) ... ok
+test_delete_one_non_exist_transaction (test_transaction.FlaskTransactionTestCase) ... ok
+test_delete_one_transaction (test_transaction.FlaskTransactionTestCase) ... ok
+test_show_all_transactions (test_transaction.FlaskTransactionTestCase) ... ok
+test_show_all_transactions_before_login (test_transaction.FlaskTransactionTestCase) ... ok
+test_show_one_non_exist_transaction (test_transaction.FlaskTransactionTestCase) ... ok
+test_show_one_transaction (test_transaction.FlaskTransactionTestCase) ... ok
+test_update_one_non_exist_transaction (test_transaction.FlaskTransactionTestCase) ... ok
+test_update_one_transaction (test_transaction.FlaskTransactionTestCase) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 1.501s
+
+OK
+Coverage Summary:
+Name                         Stmts   Miss Branch BrPart  Cover
+--------------------------------------------------------------
+flowey/api/auth.py              47     26     14      0    44%
+flowey/api/transactions.py      72     35     22      1    55%
+flowey/app.py                   16      6      0      0    62%
+flowey/ext.py                   13      8      0      0    38%
+flowey/models.py                52     37     14      0    29%
+--------------------------------------------------------------
+TOTAL                          200    112     50      1    45%
+HTML version: file:///home/travis/build/kevinkwl/flowey/flowey-server/tmp/coverage/index.html
